@@ -42,3 +42,49 @@ console.log("the qoutient is " + qou );
  console.log(result2);
  console.log(result3);
  console.log(result4);
+
+  //condition statement
+ //if statement 
+ let tomorrow = new Date().getDate();
+ let greetings, greet, variable;
+
+ if(tomorrow < 24){
+    greetings = "Good evening";
+ }
+
+console.log(greetings);
+
+//if else statement
+if (tomorrow > 18){
+    greet = "good evening";
+}
+else{
+    greet = "you to have a god day";
+}
+console.log(greet);
+
+//else if statement
+if (tomorrow > 18){
+    variable = "What's up";
+}else if(tomorrow < 18){
+    variable = "welcome to my GitHub account";
+}else{
+    variable = "have a nice day";
+}
+console.log(variable);
+
+//switch statement
+let week = 2;
+let greeting;
+
+switch(week){
+    case 1:
+        greeting = "Hi guys have a nice day!";
+        break;
+    case 2:
+        greeting = "Hope you happy all day!";
+    case 3:
+        greeting = "God is Good All The Time";
+        break;
+}
+console.log(greeting);
