@@ -88,3 +88,25 @@ switch(week){
         break;
 }
 console.log(greeting);
+
+//loops
+//for loop
+
+for (let n=0; n < 20; n++){
+    console.log(n);
+}
+
+//while loop
+let n= 0;
+while (n < 20){
+    n++;
+}
+    console.log("numbers are:" + n);
+
+    //do while loop
+
+    let k = 0 ;
+    do {
+        console.log("number are:"+ k);
+        k++;
+    }while(k < 10);
